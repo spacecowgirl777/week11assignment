@@ -1,0 +1,42 @@
+.board {
+    
+    width:600px; 
+    margin-left:auto;
+    margin-right:auto; 
+    
+    
+    
+
+}
+table {
+    table-layout: fixed;
+}
+td {
+    height:200px
+}
+
+
+.row1 {
+    border-top: #fff;
+}
+
+.row3 {
+    border-bottom: #fff;
+}
+
+.col1 {
+    border-left: #fff;
+}
+
+.col3 {
+    border-right: #fff;
+}
+
+button {
+    height:100%;
+    width:100%;
+}
+
+
+
+
