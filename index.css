@@ -1,38 +1,46 @@
-.board {
-    
-    width:600px; 
-    margin-left:auto;
-    margin-right:auto; 
-    
-    
-    
+.container {
+    height:600px;
+    width:600px;
 
 }
+.board {
+    height:600px;
+    width:600px; 
+
+}
+
+h2 {
+    color:white;
+    
+}
+
+
 table {
     table-layout: fixed;
 }
 td {
     height:200px
 }
-
-
-.row1 {
+.center {
+    justify-content:center;
+}
+.top {
     border-top: #fff;
 }
 
-.row3 {
+.bottom {
     border-bottom: #fff;
 }
 
-.col1 {
+.left {
     border-left: #fff;
 }
 
-.col3 {
+.right {
     border-right: #fff;
 }
 
-button {
+.cell {
     height:100%;
     width:100%;
 }
